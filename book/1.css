@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.border{
+    border: 1px solid red;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.item{
+    position: relative;
+    margin: 1%;
+}
+.item img{
+    width: 35%;
+    height: 40vh;
+}
+
+.book__info{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    right: 1%;
+}
+.book__info h1{
+    color: rgb(63,61,132);
+}
